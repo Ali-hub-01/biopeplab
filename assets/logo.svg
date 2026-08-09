@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 56" role="img" aria-label="BIOPEPLAB">
+  <g fill="none" stroke="#0f9d8f" stroke-width="2.4" stroke-linecap="round">
+    <circle cx="16" cy="14" r="5" fill="#0f9d8f" stroke="none"/>
+    <circle cx="40" cy="24" r="5" fill="#0f9d8f" stroke="none"/>
+    <circle cx="20" cy="40" r="5" fill="#e8f5f3" stroke="#0f9d8f"/>
+    <circle cx="44" cy="46" r="4" fill="#e8f5f3" stroke="#0f9d8f"/>
+    <path d="M16 14 L40 24 L20 40 L44 46"/>
+  </g>
+  <text x="60" y="37" font-family="'Manrope','Segoe UI',sans-serif" font-size="26" letter-spacing="0.5">
+    <tspan fill="#0f9d8f" font-weight="800">BIO</tspan><tspan fill="#16202a" font-weight="700">PEP</tspan><tspan fill="#0f9d8f" font-weight="800">LAB</tspan>
+  </text>
+</svg>

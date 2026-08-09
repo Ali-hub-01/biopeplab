@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="BIOPEPLAB">
+  <rect width="64" height="64" rx="14" fill="#0f9d8f"/>
+  <g fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round">
+    <path d="M18 18 L40 26 L22 42 L46 48"/>
+    <circle cx="18" cy="18" r="5.5" fill="#ffffff" stroke="none"/>
+    <circle cx="40" cy="26" r="5.5" fill="#ffffff" stroke="none"/>
+    <circle cx="22" cy="42" r="5" fill="#0f9d8f" stroke="#ffffff"/>
+    <circle cx="46" cy="48" r="4.5" fill="#0f9d8f" stroke="#ffffff"/>
+  </g>
+</svg>

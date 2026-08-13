@@ -303,3 +303,6 @@ a.contact-row:hover{border-color:var(--accent);transform:translateX(4px);box-sha
 @media(min-width:720px){.prod-grid.featured{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(min-width:900px){.pen-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(min-width:1080px){.prod-grid.featured{grid-template-columns:repeat(4,minmax(0,1fr))}.pen-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+
+/* цена «уточняйте» для позиций без фикс. цены */
+.price--ask{ font-size:1rem; font-weight:700; color:var(--ink-mute); white-space:nowrap; }

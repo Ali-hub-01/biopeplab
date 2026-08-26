@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="BIOPEPLAB">
-  <rect width="64" height="64" rx="14" fill="#0f9d8f"/>
-  <g fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round">
-    <path d="M18 18 L40 26 L22 42 L46 48"/>
-    <circle cx="18" cy="18" r="5.5" fill="#ffffff" stroke="none"/>
-    <circle cx="40" cy="26" r="5.5" fill="#ffffff" stroke="none"/>
-    <circle cx="22" cy="42" r="5" fill="#0f9d8f" stroke="#ffffff"/>
-    <circle cx="46" cy="48" r="4.5" fill="#0f9d8f" stroke="#ffffff"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="15" fill="#0E2E23"/>
+  <path d="M32 9 51 20v22L32 53 13 42V20L32 9Z" stroke="#C8A96A" stroke-width="2.6" fill="none"/>
+  <circle cx="32" cy="31" r="8.5" fill="#C8A96A" opacity=".2"/>
+  <circle cx="32" cy="31" r="4.4" fill="#EDE3CC"/>
+  <circle cx="32" cy="17" r="2.8" fill="#EDE3CC"/>
+  <circle cx="45" cy="39" r="2.8" fill="#EDE3CC"/>
+  <circle cx="19" cy="39" r="2.8" fill="#EDE3CC"/>
+  <path d="M32 20v6.4M42.6 37.6l-6.6-3.8M21.4 37.6l6.6-3.8" stroke="#EDE3CC" stroke-width="2.2" stroke-linecap="round"/>
 </svg>

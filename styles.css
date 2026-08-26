@@ -61,7 +61,10 @@ ul,ol{margin:0;padding:0;list-style:none}
 .site-header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.82);backdrop-filter:saturate(180%) blur(14px);border-bottom:1px solid transparent;transition:border-color .3s,box-shadow .3s}
 .site-header.scrolled{border-color:var(--line);box-shadow:0 4px 20px rgba(22,32,42,.05)}
 .header-inner{display:flex;align-items:center;gap:20px;height:70px}
-.brand-logo{height:34px;width:auto}
+.brand{display:inline-flex;align-items:center;gap:9px;color:#0E2E23;text-decoration:none}
+.brand .logo-mark{width:33px;height:33px;flex:none}
+.logo-text{font-family:'Unbounded',sans-serif;font-weight:600;font-size:16px;letter-spacing:.04em;color:currentColor;line-height:1;white-space:nowrap}
+.logo-text em{font-style:normal;color:#C8A96A}
 .nav{display:none;gap:28px;margin-left:auto}
 .nav a{font-size:15.5px;font-weight:600;color:var(--ink-soft);position:relative;transition:color .2s}
 .nav a::after{content:"";position:absolute;left:0;right:100%;bottom:-6px;height:2px;background:var(--accent);transition:right .3s var(--ease)}
@@ -190,7 +193,9 @@ a.contact-row:hover{border-color:var(--accent);transform:translateX(4px);box-sha
 /* ---------- footer ---------- */
 .site-footer{background:#0f1a1f;color:#c6d1d3;padding:52px 0 30px}
 .footer-inner{display:grid;grid-template-columns:minmax(0,1fr);gap:30px}
-.footer-brand img{height:32px;width:auto;filter:brightness(0) invert(1);opacity:.95;margin-bottom:14px}
+.footer-brand .brand{color:#e9f0ec;margin-bottom:14px}
+.footer-brand .logo-mark{width:31px;height:31px}
+.footer-brand .logo-text{font-size:15.5px}
 .footer-brand p{font-size:.92rem;color:#8b989b;max-width:36ch}
 .footer-nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 20px}
 .footer-nav a{font-size:.94rem;color:#c6d1d3;transition:color .2s}

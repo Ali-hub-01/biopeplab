@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://shop.biopep-lab.kz/sitemap.xml
+Sitemap: https://biopep-lab.kz/sitemap.xml
